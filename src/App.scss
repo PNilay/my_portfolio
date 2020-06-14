@@ -1,0 +1,25 @@
+.App {
+  //background-image: url(./Components/BackGround.jpg);
+  background-color: lightsalmon;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.App__overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  transition: all ease 0.5s;
+  z-index: 1;
+}
+
+.App__container__overlay--show {
+  opacity: 0.4;
+  visibility: visible;
+}
+.App__container__overlay--hide {
+  opacity: 0;
+  visibility: hidden;
+}

@@ -1,0 +1,28 @@
+h1,
+h2 {
+  margin: 0;
+  font-weight: 400;
+  &.user_name_heading {
+    margin-top: 20vh;
+    font-size: 3rem;
+    &:hover {
+      color: red;
+      transition: all 0.5s ease-out;
+    }
+  }
+  &.info_heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    &:hover {
+      color: red;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+}
+.HomePage_info {
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  padding: 4rem;
+  height: 100%;
+}

@@ -1,0 +1,12 @@
+.HorizontalNavBar {
+  width: 100%;
+  height: 4em;
+  // background-color: white;
+  display: flex;
+  align-items: center;
+  .RightSideButton {
+    position: absolute;
+    right: 2em;
+    top: 2em;
+  }
+}

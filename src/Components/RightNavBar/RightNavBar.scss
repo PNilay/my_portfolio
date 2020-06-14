@@ -1,0 +1,45 @@
+$right-sidebar-width: 10em;
+$right-sidebar-height: 12em;
+.RightNavBar {
+  position: fixed;
+  background-color: white;
+  width: $right-sidebar-width;
+  height: $right-sidebar-height;
+  top: 4em;
+  right: 4.5em;
+  z-index: 2;
+
+  -webkit-box-shadow: -4px 2px 25px 1px rgba(133, 105, 133, 1);
+  -moz-box-shadow: -4px 2px 25px 1px rgba(133, 105, 133, 1);
+  box-shadow: -4px 2px 25px 1px rgba(133, 105, 133, 1);
+  transition: all ease 0.5s;
+
+  .RightNavBar_Menu {
+    list-style-type: none;
+    margin-left: 3em;
+    padding: 0;
+
+    li {
+      margin-bottom: 1em;
+
+      a {
+        font-size: 11pt;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.RightNavBar--show {
+  transform: translateX(0);
+  background-color: transparent;
+}
+
+.RightNavBar--hide {
+  transform: translateX($right-sidebar-width);
+  background-color: transparent;
+  opacity: 0;
+}

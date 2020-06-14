@@ -1,0 +1,48 @@
+.HamburgerButton {
+  width: 35px;
+  height: 30px;
+  position: relative;
+  content: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 1em;
+  margin-right: 2em;
+  z-index: 2;
+
+  span {
+    position: absolute;
+    background-color: gray;
+    width: 30px;
+    height: 5px;
+    margin: 2px;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.HamburgerButton:hover {
+  span {
+    background-color: red;
+  }
+}
+.show:nth-child(1) {
+  transform: rotate(45deg);
+  transition: all 1s;
+}
+
+.show:nth-child(2) {
+  opacity: 0;
+}
+.show:nth-child(3) {
+  transform: rotate(-45deg);
+  transition: all 1s;
+}
+.hide:nth-child(1) {
+  transform: translateY(11px);
+}
+.hide:nth-child(3) {
+  transform: translateY(-11px);
+}
