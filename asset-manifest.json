@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.bb907cea.chunk.css",
-    "main.js": "/my_portfolio/static/js/main.16e5f2c5.chunk.js",
-    "main.js.map": "/my_portfolio/static/js/main.16e5f2c5.chunk.js.map",
+    "main.css": "/my_portfolio/static/css/main.6f76fd84.chunk.css",
+    "main.js": "/my_portfolio/static/js/main.c37bbca4.chunk.js",
+    "main.js.map": "/my_portfolio/static/js/main.c37bbca4.chunk.js.map",
     "runtime-main.js": "/my_portfolio/static/js/runtime-main.77f2245f.js",
     "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.77f2245f.js.map",
-    "static/js/2.210cb4d0.chunk.js": "/my_portfolio/static/js/2.210cb4d0.chunk.js",
-    "static/js/2.210cb4d0.chunk.js.map": "/my_portfolio/static/js/2.210cb4d0.chunk.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/my_portfolio/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.cf434a78.chunk.js": "/my_portfolio/static/js/2.cf434a78.chunk.js",
+    "static/js/2.cf434a78.chunk.js.map": "/my_portfolio/static/js/2.cf434a78.chunk.js.map",
     "index.html": "/my_portfolio/index.html",
-    "precache-manifest.5659361d943ecd211179db9bf6dac242.js": "/my_portfolio/precache-manifest.5659361d943ecd211179db9bf6dac242.js",
+    "precache-manifest.2dd06bf858bb3eb73b68aad96c212ada.js": "/my_portfolio/precache-manifest.2dd06bf858bb3eb73b68aad96c212ada.js",
     "service-worker.js": "/my_portfolio/service-worker.js",
-    "static/css/main.bb907cea.chunk.css.map": "/my_portfolio/static/css/main.bb907cea.chunk.css.map",
-    "static/js/2.210cb4d0.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.210cb4d0.chunk.js.LICENSE.txt"
+    "static/css/2.af3c1da9.chunk.css.map": "/my_portfolio/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.6f76fd84.chunk.css.map": "/my_portfolio/static/css/main.6f76fd84.chunk.css.map",
+    "static/js/2.cf434a78.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.cf434a78.chunk.js.LICENSE.txt",
+    "static/media/AboutMePage.scss": "/my_portfolio/static/media/IMG_1304.9b87aa8b.jpg",
+    "static/media/man-in-red-crew-neck-t-shirt-and-black-pants-sitting-on-4108004.jpg": "/my_portfolio/static/media/man-in-red-crew-neck-t-shirt-and-black-pants-sitting-on-4108004.1993c1aa.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.77f2245f.js",
-    "static/js/2.210cb4d0.chunk.js",
-    "static/css/main.bb907cea.chunk.css",
-    "static/js/main.16e5f2c5.chunk.js"
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.cf434a78.chunk.js",
+    "static/css/main.6f76fd84.chunk.css",
+    "static/js/main.c37bbca4.chunk.js"
   ]
 }
