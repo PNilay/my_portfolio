@@ -38,7 +38,7 @@ const ContactMePage = () => {
         </div>
         <div className="contactme_box">
           <a
-            href="https://www.linkedin.com/in/nilay-patel-26858414a/"
+            href="https://www.linkedin.com/in/nilay-patel-26858414a"
             target="_blank"
             className="Contactme_link"
           >
