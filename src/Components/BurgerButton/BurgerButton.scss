@@ -10,7 +10,7 @@
   cursor: pointer;
   margin-left: 1em;
   margin-right: 2em;
-  z-index: 2;
+  z-index: 3;
 
   span {
     position: absolute;
@@ -25,7 +25,7 @@
 
 .HamburgerButton:hover {
   span {
-    background-color: red;
+    background-color: indianred;
   }
 }
 .show:nth-child(1) {

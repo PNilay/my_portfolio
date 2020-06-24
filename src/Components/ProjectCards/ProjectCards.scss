@@ -1,0 +1,72 @@
+.project_card_container {
+  width: 275px;
+  height: 310px;
+  // background-color: lightblue;
+  background: rgba(57, 59, 58, 0.7);
+  overflow: hidden;
+}
+
+.project_title {
+  margin-top: 40px;
+  height: auto;
+  // width: 275px;
+  // color: royalblue;
+  // color: rgba(94, 42, 42, 0.6);
+  color: indianred;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 16pt;
+  font-weight: 600;
+  // background-color: white;
+}
+
+.project_description {
+  overflow: hidden;
+  // height: 180px;
+  max-height: 180px;
+  font-size: 10pt;
+  color: white;
+  // background-color: magenta;
+  max-width: 255px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.proj_card_info {
+  width: 275px;
+  height: 230px;
+}
+.project_languages {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10pt;
+  max-width: 255px;
+  overflow: hidden;
+  color: white;
+  // background-color: yellowgreen;
+  // margin-top: 10px;
+  position: relative;
+  bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.projet_links_logo {
+  max-width: 255px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: visible;
+  height: 30px;
+  // background-color: red;
+}
+
+.github_link {
+  align-content: center;
+  align-self: center;
+  align-items: center;
+}
+.github_logo {
+  width: 25px;
+  height: 25px;
+}

@@ -1,28 +1,89 @@
-h1,
-h2 {
-  margin: 0;
+.user_name_heading {
   font-weight: 400;
-  &.user_name_heading {
-    margin-top: 20vh;
-    font-size: 3rem;
-    &:hover {
-      color: red;
-      transition: all 0.5s ease-out;
-    }
+  margin-top: 20vh;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+  animation: homepage_text 3s;
+  // background: rgba(76, 175, 80, 0.3);
+  // background-color: blanchedalmond;
+  // margin-bottom: -60px;
+  // background-color: yellowgreen;
+  &:hover {
+    color: indianred;
+    transition: all 0.5s ease-out;
   }
-  &.info_heading {
-    margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    &:hover {
-      color: red;
-      transition: all 0.5s ease-in-out;
-    }
+}
+
+.info_heading {
+  // margin-top: -50px;
+  animation: homepage_text1 3s 1;
+  // background-color: blanchedalmond;
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  &:hover {
+    color: indianred;
+    transition: all 0.5s ease-in-out;
   }
 }
 .HomePage_info {
-  overflow: hidden;
+  top: -100vh;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
   text-align: center;
-  align-items: center;
   padding: 4rem;
-  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage_container {
+  // z-index: 3;
+  width: 85vw;
+  height: 50vh;
+  border: 5px indianred double;
+  background: rgba(88, 92, 89, 0.3);
+}
+
+@keyframes homepage_text {
+  0% {
+    color: black;
+    margin-bottom: -60px;
+    // background: red;
+  }
+  30% {
+    letter-spacing: 10px;
+    margin-bottom: -60px;
+    // background: blue;
+  }
+  50% {
+    letter-spacing: 8px;
+    margin-bottom: -60px;
+    // background: blue;
+  }
+  85% {
+    margin-bottom: 0px;
+  }
+}
+
+@keyframes homepage_text1 {
+  0% {
+    color: transparent;
+  }
+  30% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+}
+
+.overlayBackground {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 100vh solid rgb(83, 75, 75);
+  border-right: 100vw solid transparent;
 }
