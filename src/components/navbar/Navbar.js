@@ -43,7 +43,7 @@ function Navbar() {
     return (
     <div className="nav">
       <header>
-        <img className="logo" src="%homepage%/Group 1.svg" alt="logo" width="50px"></img>
+        <img className="logo" src="Group 1.svg" alt="logo" width="50px"></img>
         <nav>
           <ul className={`nav__links ${ isShowSidebar ? "nav__active" : ""}`}>
           <Link to="/" onClick={isShowSidebar?handleClick:""}>
