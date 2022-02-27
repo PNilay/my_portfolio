@@ -1,0 +1,87 @@
+.aboutme_page {
+    width: 90vw;
+    /* min-height: 100vh; */
+    text-align: center;
+  }
+
+  .aboutme_information {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+      "aboutme_bio aboutme_bio aboutme_bio"
+      "aboutme_education aboutme_education aboutme_education"
+      "aboutme_skills aboutme_skills aboutme_skills";
+    grid-template-columns: repeat(3, 1fr);
+  
+    margin-left: 5vw;
+  }
+  
+  .aboutme_bio {
+    grid-area: aboutme_bio;
+    background: rgba(255, 255, 255, 0.3);
+    border-bottom: #E8E492 5px double;
+    color: black;
+  }
+
+  
+  .aboutme_education {
+    grid-area: aboutme_education;
+    background: rgba(222, 241, 150, 0.2);
+    color: black;
+    padding: 0.5rem;
+    border-bottom: #E8E492 5px double;
+  }
+
+  
+  .aboutme_skills {
+    grid-area: aboutme_skills;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 0.5rem;
+    border-bottom: #E8E492 5px double;
+    color: black;
+    margin-bottom: 50px;
+    /* color: white; */
+  }
+
+  
+  .aboutme_title {
+    text-align: center;
+    margin-left: 10vw;
+    color: black;
+    /* color: white; */
+  }
+  
+  .title_bar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title_bar div {
+    font-size: 20pt;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .University_name a{
+      text-decoration: none;
+      color: black;
+  }
+
+  .University_name a:hover{
+      color: white;
+  }
+
+  .aboutme_content{
+      margin: 20px;
+      font-size: 18px;
+  }
+
+  .aboutme_content_header{
+      margin-top: 15px;
+      font-size: 20px;
+      font-weight: bold;
+
+  }

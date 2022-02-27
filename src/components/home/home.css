@@ -1,0 +1,49 @@
+.HomePage_info{
+    min-height: 100vh;
+    width: 100vw;
+    background: url("./Frame\ 2.svg") no-repeat;
+    background-size: cover;
+}
+
+.homepage_container{
+    position: relative;
+    top: 40vh;
+    left: 20vw;
+    width: 50vw;
+}
+
+.user_name_heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.info_heading{
+    font-size: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .HomePage_info{
+        min-height: 100vh;
+        /* width: 100vw; */
+    
+        /* background: url("./Frame\ 2.svg") no-repeat; */
+        background: url("./Android\ -\ 1.svg") no-repeat;
+        background-size: cover;
+    }
+
+    .homepage_container{
+        position: relative;
+        top: 40vh;
+        left: 20vw;
+        width: 60vw;
+    }
+
+    .user_name_heading{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .info_heading{
+        font-size: 25px;
+    }
+}

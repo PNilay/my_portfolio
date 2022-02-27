@@ -1,0 +1,64 @@
+
+.project_card_container {
+    width: 275px;
+    height: 310px;
+    /* // background-color: lightblue; */
+    background: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+  }
+  
+  .project_title {
+    margin-top: 40px;
+    height: auto;
+    color: #726c04;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 16pt;
+    font-weight: 600;
+  }
+  
+  .project_description {
+    overflow: hidden;
+    max-height: 180px;
+    font-size: 10pt;
+    color: black;
+    max-width: 255px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .proj_card_info {
+    width: 275px;
+    height: 230px;
+  }
+  .project_languages {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10pt;
+    max-width: 255px;
+    overflow: hidden;
+    color: black;
+    position: relative;
+    bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .projet_links_logo {
+    max-width: 255px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: visible;
+    height: 30px;
+  }
+  
+  .github_link {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+  }
+  .github_logo {
+    width: 25px;
+    height: 25px;
+  }
