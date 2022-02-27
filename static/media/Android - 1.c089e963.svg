@@ -1,0 +1,13 @@
+<svg width="360" height="640" viewBox="0 0 360 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_7_15)">
+<rect width="360" height="640" fill="#5DC5CC" fill-opacity="0.42"/>
+<circle cx="90.5" cy="84.5" r="136.5" fill="#F3F49C"/>
+<ellipse cx="269.5" cy="423" rx="196.5" ry="202" fill="#E8E492"/>
+<circle cx="519.5" cy="-68.5" r="519.5" fill="#E0E1AD" fill-opacity="0.52"/>
+</g>
+<defs>
+<clipPath id="clip0_7_15">
+<rect width="360" height="640" fill="white"/>
+</clipPath>
+</defs>
+</svg>
