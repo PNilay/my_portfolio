@@ -2,6 +2,7 @@ import React from "react";
 import "./ProjectPage.css";
 import ProjectCards from "../projectCards/ProjectCards";
 import { AiOutlineGithub } from "react-icons/ai";
+import {AiOutlineGlobal} from "react-icons/ai"
 const Projects = () => {
   return (
     <div className="main_div scroll" id="/projects">
@@ -9,6 +10,39 @@ const Projects = () => {
         <div>projects</div>
       </div>
       <div className="project_container">
+      <div className="box">
+          <div className="child_projct_card">
+            <ProjectCards
+              proj_name="AlgoVisualizer"
+              proj_description="Responsive, interactive and dynamic web-based application to visualize various types of path finding algorithm (BFS, DFS, Dijkstra's and A*) in grid world and maze settings.
+              "
+              prog_languages="Angular, TypeScript, HTML, CSS"
+            />
+          </div>
+          <div className="project_name">
+            <a
+              href="https://github.com/PNilay/algo-visualizer"
+              target="_blank"
+              rel="noreferrer"
+              className="github_link"
+            >
+              <AiOutlineGithub className="github_logo" />
+            </a>
+            <a
+              href="https://pnilay.github.io/algo-visualizer/"
+              target="_blank"
+              rel="noreferrer"
+              className="github_link"
+            >
+              <AiOutlineGlobal className="github_logo" />
+            </a>
+          </div>
+        </div>
+
+
+
+
+
         <div className="box">
           <div className="child_projct_card">
             <ProjectCards
