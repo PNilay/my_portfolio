@@ -39,8 +39,26 @@ const Projects = () => {
           </div>
         </div>
 
-
-
+        <div className="box">
+          <div className="child_projct_card">
+            <ProjectCards
+              proj_name="LSTM Network From Scratch (Text Generation & Image Classification)"
+              proj_description="Implemented text generation and MNIST handwritten digit classification models using LSTM network from scratch.
+              "
+              prog_languages="Python/Jupyter Notebook"
+            />
+          </div>
+          <div className="project_name">
+            <a
+              href="https://github.com/PNilay/LSTM-Network-from-Scratch"
+              target="_blank"
+              rel="noreferrer"
+              className="github_link"
+            >
+              <AiOutlineGithub className="github_logo" />
+            </a>
+          </div>
+        </div>
 
 
         <div className="box">
