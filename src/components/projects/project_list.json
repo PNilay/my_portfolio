@@ -1,0 +1,65 @@
+[
+    {
+        "proj_name": "Messaging Webapp",
+        "proj_description": "Chat application for communication with friends and planning group trips",
+        "proj_languages":"Angular, TypeScript, HTML, CSS",
+        "proj_github":"",
+        "proj_website": ""
+    },
+    {
+        "proj_name": "AlgoVisualizer",
+        "proj_description": "Responsive, interactive and dynamic web-based application to visualize various types of path finding algorithm (BFS, DFS, Dijkstra's and A*) in grid world and maze settings.",
+        "proj_languages":"Angular, TypeScript, HTML, CSS",
+        "proj_github":"https://github.com/PNilay/algo-visualizer",
+        "proj_website": "https://pnilay.github.io/algo-visualizer/"
+    },
+    {
+        "proj_name": "LSTM Network From Scratch (Text Generation & Image Classification)",
+        "proj_description": "Implemented text generation and MNIST handwritten digit classification models using LSTM network from scratch.",
+        "proj_languages":"Python/Jupyter Notebook",
+        "proj_github":"https://github.com/PNilay/LSTM-Network-from-Scratch",
+        "proj_website": ""
+    },
+    {
+        "proj_name": "Travel Reservation System",
+        "proj_description": "Collaborated in team of four students to design and implement database system to support the operation of an online travel reservation system",
+        "proj_languages":"HTML MySql CSS JavaScript JSP",
+        "proj_github":"https://github.com/micort35/travel_db",
+        "proj_website": ""
+    },
+    {
+        "proj_name": "Where’s the File",
+        "proj_description": "Version control system similar to Git is implemented in this project",
+        "proj_languages":"C",
+        "proj_github":"https://github.com/PNilay/versioncontrol-system",
+        "proj_website": ""
+    },
+    {
+        "proj_name": "DNS Socket Programming Project",
+        "proj_description": "Implemented Domain Name System (DNS) with authentication server to get the ip adress given a host name of the server",
+        "proj_languages":"Python",
+        "proj_github":"https://github.com/PNilay/DNS_Socket_Programming_Project",
+        "proj_website": ""
+    },
+    {
+        "proj_name": "Bank and Stock Management System",
+        "proj_description": "This project models the simple stock market and the bank account using the c++ class features",
+        "proj_languages":"C++",
+        "proj_github":"https://github.com/PNilay/Bank_and_Stock_Management_System",
+        "proj_website": ""
+    },
+    {
+        "proj_name": "Fast Trajectory Re-planning",
+        "proj_description": "Implemented multiple types of A* algorithm to find path from start to target",
+        "proj_languages":"Java",
+        "proj_github":"https://github.com/PNilay/Trejectory_Replanning",
+        "proj_website": ""
+    },
+    {
+        "proj_name": "Handwritten Digits Recognition Using Fully Conneted Neural Network",
+        "proj_description": "Implemented a fully connected neural network on MNIST handwritten digits dataset using only NumPy to correctly classify each image",
+        "proj_languages":"Python",
+        "proj_github":"https://github.com/PNilay/FullyConnected_NN_numpy",
+        "proj_website": ""
+    }
+]
