@@ -1,3 +1,15 @@
+:root{
+   --primary--color: rgb(4, 4, 53);;
+   /* --secondary--color:#27e8a7; */
+   --tertiary--color:#df4576;
+   --navbar--bg--color:rgb(255 255 255 / 33%);
+
+   --sec--color:#ffcdb2;
+   --pri--color:#e5989b;
+   --secondary--color:#e5989b;
+
+
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,9 +18,8 @@
 
 html, body { height: 100%; }
 body {
-  /* background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%); */
-  /* background: #5DC5CC; */
-  background: seashell;
+  color:white;
+  background: var(--primary--color);
   background-size: cover;
   overflow-x: hidden;
 }
