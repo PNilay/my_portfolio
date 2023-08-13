@@ -4,39 +4,41 @@
         "proj_description": "Chat application for communication with friends and planning group trips",
         "proj_languages":"Angular, TypeScript, HTML, CSS",
         "proj_github":"",
-        "proj_website": ""
+        "proj_website": "",
+        "proj_imgs": "img"
     },
     {
         "proj_name": "AlgoVisualizer",
-        "proj_description": "Responsive, interactive and dynamic web-based application to visualize various types of path finding algorithm (BFS, DFS, Dijkstra's and A*) in grid world and maze settings.",
+        "proj_description": "Crafted with care and innovation, this project showcases a responsive, interactive, and dynamically evolving web-based application. It serves as a captivating platform to visually explore a spectrum of pathfinding algorithms, including BFS, DFS, Dijkstra's, and the efficiency-optimized A*. Through meticulously designed grid worlds and maze settings, users can immerse themselves in the fascinating realm of algorithmic navigation.",
         "proj_languages":"Angular, TypeScript, HTML, CSS",
         "proj_github":"https://github.com/PNilay/algo-visualizer",
-        "proj_website": "https://pnilay.github.io/algo-visualizer/"
+        "proj_website": "https://pnilay.github.io/algo-visualizer/",
+        "proj_imgs": "/imgs"
     },
     {
         "proj_name": "LSTM Network From Scratch (Text Generation & Image Classification)",
-        "proj_description": "Implemented text generation and MNIST handwritten digit classification models using LSTM network from scratch.",
+        "proj_description": "Constructed Text Generation and MNIST Handwritten Digit Classification Models Ground-Up Using LSTM Networks. This endeavor encapsulates the journey from concept to realization, showcasing cutting-edge solutions in both realms.",
         "proj_languages":"Python/Jupyter Notebook",
         "proj_github":"https://github.com/PNilay/LSTM-Network-from-Scratch",
         "proj_website": ""
     },
     {
         "proj_name": "Travel Reservation System",
-        "proj_description": "Collaborated in team of four students to design and implement database system to support the operation of an online travel reservation system",
+        "proj_description": "Teaming up with three peers to Architect and Develop a Robust Database System. This system was expertly engineered to underpin the seamless operation of an Online Airline Travel Reservation Platform.",
         "proj_languages":"HTML MySql CSS JavaScript JSP",
         "proj_github":"https://github.com/micort35/travel_db",
         "proj_website": ""
     },
     {
         "proj_name": "Where’s the File",
-        "proj_description": "Version control system similar to Git is implemented in this project",
+        "proj_description": "This project presents a centralized version control system (CVCS) akin to Git, with a remote server holding the master repository and users maintaining local working copies. It facilitates collaborative software development by enabling multiple contributors to access, modify, and sync projects. The system's synchronization mechanism ensures consistency and enables easy retrieval of previous versions, enhancing code stability and teamwork.",
         "proj_languages":"C",
         "proj_github":"https://github.com/PNilay/versioncontrol-system",
         "proj_website": ""
     },
     {
         "proj_name": "DNS Socket Programming Project",
-        "proj_description": "Implemented Domain Name System (DNS) with authentication server to get the ip adress given a host name of the server",
+        "proj_description": "Engineered a Dynamic Domain Name System (DNS) with an Authentication Server, Enabling Effortless IP Address Retrieval Through Host Names.",
         "proj_languages":"Python",
         "proj_github":"https://github.com/PNilay/DNS_Socket_Programming_Project",
         "proj_website": ""
@@ -50,7 +52,7 @@
     },
     {
         "proj_name": "Fast Trajectory Re-planning",
-        "proj_description": "Implemented multiple types of A* algorithm to find path from start to target",
+        "proj_description": "Engineered Diverse Variants of the A* Algorithm, Illuminating Routes from Start to Target.",
         "proj_languages":"Java",
         "proj_github":"https://github.com/PNilay/Trejectory_Replanning",
         "proj_website": ""
