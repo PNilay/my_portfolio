@@ -46,19 +46,23 @@ function Navbar() {
         <img className="logo" src="Group 1.svg" alt="logo" width="50px"></img>
         <nav>
           <ul className={`nav__links ${ isShowSidebar ? "nav__active" : ""}`}>
-          <Link to="/" onClick={isShowSidebar?handleClick:""}>
+          <Link to="/" smooth={true} duration={500} onClick={isShowSidebar?handleClick:""}>
             <li>Home</li>
           </Link>
 
-          <Link to="/aboutme" onClick={isShowSidebar?handleClick:""}>
+          <Link to="/aboutme" smooth={true} duration={500} onClick={isShowSidebar?handleClick:""}>
             <li>About Me</li>
           </Link>
 
-          <Link to="/projects" onClick={isShowSidebar?handleClick:""}>
+          <Link to="/skills" smooth={true} duration={500} onClick={isShowSidebar?handleClick:""}>
+            <li>Skills</li>
+          </Link>
+
+          <Link to="/projects" smooth={true} duration={500} onClick={isShowSidebar?handleClick:""}>
             <li>Projects</li>
           </Link>
 
-          <Link to="/contactme" onClick={isShowSidebar?handleClick:""}>
+          <Link to="/contactme" smooth={true} duration={500} onClick={isShowSidebar?handleClick:""}>
             <li>Contact Me</li>
           </Link>
           </ul>

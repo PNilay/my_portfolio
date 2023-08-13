@@ -7,14 +7,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: rgba(255, 255, 255, 0.6);
+    background: var(--navbar--bg--color);
 
     /* background: #24252A; */
 }
 
 li, button{
     font-family:sans-serif;
-    color: black;
+    /* color: black; */
+    color: var(--secondary--color);
     text-decoration: none;
 }
 
@@ -46,13 +47,16 @@ header{
 }
 
 .nav__links li:hover{
-    color: #5DC5CC;
+    /* color: #5DC5CC; */
+    color: var(--tertiary--color);
+
 }
 
 button{
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(0,136, 169,1);
+    /* background-color: rgba(0,136, 169,1); */
+    background-color: var(--tertiary--color);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -89,7 +93,8 @@ button:hover{
     height: 92vh;
     top: 65px;
     /* background-color: #24252A; */
-    background: rgba(255, 255, 255, 0.8);
+    /* background: rgba(255, 255, 255, 0.8); */
+    background-color: var(--primary--color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +110,7 @@ button:hover{
     font-size: 30px;
     font-weight: 500;
     /* color: white; */
-    color: black;
+    color: var(--secondary--color);
     text-decoration: none;
     margin: 2rem 0 !important;
 }
