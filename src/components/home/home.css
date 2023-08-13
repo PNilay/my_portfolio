@@ -1,7 +1,7 @@
 .HomePage_info{
     min-height: 100vh;
     width: 100vw;
-    background: url("./Frame\ 2.svg") no-repeat;
+    /* background: url("./Frame\ 2.svg") no-repeat; */
     background-size: cover;
 }
 
@@ -13,8 +13,10 @@
 }
 
 .user_name_heading{
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 72px;
+    font-family: "Monoton", cursive;
+    color: var(--secondary--color);
+/* color: #b5838d; */
 }
 
 .info_heading{
@@ -27,7 +29,7 @@
         /* width: 100vw; */
     
         /* background: url("./Frame\ 2.svg") no-repeat; */
-        background: url("./Android\ -\ 1.svg") no-repeat;
+        /* background: url("./Android\ -\ 1.svg") no-repeat; */
         background-size: cover;
     }
 
