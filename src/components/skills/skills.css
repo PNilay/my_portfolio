@@ -1,0 +1,63 @@
+.skills_page{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills_title{
+  /* margin-left: 10vw; */
+  padding-bottom: 25px;
+  flex-shrink: 0;
+  width: 100%;
+  height: auto; /* 58px */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow: visible;
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Monoton", monospace;
+  color: #b5838d;
+  font-size: 48px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.skills_msg{
+  padding: 20px;
+  max-width: 100%;
+  overflow: visible;
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Albert Sans", "Albert Sans Placeholder", sans-serif;
+  color: #ffb4a2;
+  font-size: 20px;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 85vw;
+}
+
+.skills_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.skills_col{
+width: 50%;
+text-align: left;
+}
+
+.skills_col2{
+text-align: right;
+}
