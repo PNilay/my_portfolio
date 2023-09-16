@@ -15,17 +15,30 @@ const Skills = () => {
         <div className="skills_row">
           <div className="skills_col">Mastery of Languages</div>
           <div className="skills_col2">
-            C, C++, Java, Python, MATLAB, HTML, JavaScript, VHDL
+          Java, Python, C, C++, MATLAB
           </div>
         </div>
 
         <div className="skills_row">
-          <div className="skills_col">Operating System/Software</div>
+          <div className="skills_col">Web Development/Database Management</div>
           <div className="skills_col2">
-            Linux, Windows, MacOS, Microsoft Office, LTspice, Latex, React, ROS,
-            Git
+          JavaScript/TypeScript, HTML, CSS/Bootstrap, React, Angular, CodeIgniter, JSP, PHP, JQuery, MySQL
           </div>
         </div>
+
+        <div className="skills_row">
+          <div className="skills_col">Software Development and Tools</div>
+          <div className="skills_col2">
+          Spring Framework, Git, Jira, Microsoft Office (Office Suite), OpenText Exstream, Latex, ROS
+          </div>
+        </div>
+
+        {/* <div className="skills_row">
+          <div className="skills_col">Operating System/Software</div>
+          <div className="skills_col2">
+            Linux, Windows, MacOS, LTspice, Latex, ROS
+          </div>
+        </div> */}
 
         <div className="skills_row">
           <div className="skills_col">Hardware</div>
@@ -35,10 +48,6 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="skills_row">
-          <div className="skills_col">Web Development tools</div>
-          <div className="skills_col2">MySQL, JSP, Sass/CSS, Node.js</div>
-        </div>
       </div>
     </div>
   );
