@@ -1,12 +1,18 @@
 :root{
    --primary--color: rgb(4, 4, 53);;
    /* --secondary--color:#27e8a7; */
-   --tertiary--color:#df4576;
+   /* --tertiary--color:#df4576; */
    --navbar--bg--color:rgb(255 255 255 / 33%);
-
    --sec--color:#ffcdb2;
-   --pri--color:#e5989b;
-   --secondary--color:#e5989b;
+   /* --pri--color:#e5989b; */
+   /* --secondary--color:#e5989b; */
+   --pri--color:#e6b89c;
+   --ter--color:#e5989b;
+   --secondary--color: #e6b89c;
+   --tertiary--color:#FF6700;
+
+
+
 
 
 }
