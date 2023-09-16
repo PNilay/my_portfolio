@@ -7,7 +7,6 @@
 }
 
 .skills_title{
-  /* margin-left: 10vw; */
   padding-bottom: 25px;
   flex-shrink: 0;
   width: 100%;
@@ -20,7 +19,7 @@
   font-weight: 400;
   font-style: normal;
   font-family: "Monoton", monospace;
-  color: #b5838d;
+  color: var(--pri--color);
   font-size: 48px;
   letter-spacing: 0em;
   line-height: 1.2;
