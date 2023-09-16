@@ -1,11 +1,11 @@
 [
     {
-        "proj_name": "Messaging Webapp",
-        "proj_description": "Chat application for communication with friends and planning group trips",
+        "proj_name": "ReactiveChats",
+        "proj_description": "This project is a responsive real-time messaging web application, offering secure user registration, individual and group chats, message reactions, poll creation, collaborative task planning, user search, and last seen status tracking for seamless communication and collaboration.",
         "proj_languages":"Angular, TypeScript, HTML, CSS",
-        "proj_github":"",
-        "proj_website": "",
-        "proj_imgs": "img"
+        "proj_github":"https://github.com/PNilay/react-chat-webapp",
+        "proj_website": "https://react-webapps-58349.web.app",
+        "proj_imgs": ""
     },
     {
         "proj_name": "AlgoVisualizer",
@@ -13,55 +13,62 @@
         "proj_languages":"Angular, TypeScript, HTML, CSS",
         "proj_github":"https://github.com/PNilay/algo-visualizer",
         "proj_website": "https://pnilay.github.io/algo-visualizer/",
-        "proj_imgs": "/imgs"
+        "proj_imgs": ""
     },
     {
         "proj_name": "LSTM Network From Scratch (Text Generation & Image Classification)",
         "proj_description": "Constructed Text Generation and MNIST Handwritten Digit Classification Models Ground-Up Using LSTM Networks. This endeavor encapsulates the journey from concept to realization, showcasing cutting-edge solutions in both realms.",
         "proj_languages":"Python/Jupyter Notebook",
         "proj_github":"https://github.com/PNilay/LSTM-Network-from-Scratch",
-        "proj_website": ""
+        "proj_website": "",
+        "proj_imgs": ""
     },
     {
         "proj_name": "Travel Reservation System",
         "proj_description": "Teaming up with three peers to Architect and Develop a Robust Database System. This system was expertly engineered to underpin the seamless operation of an Online Airline Travel Reservation Platform.",
         "proj_languages":"HTML MySql CSS JavaScript JSP",
         "proj_github":"https://github.com/micort35/travel_db",
-        "proj_website": ""
+        "proj_website": "",
+        "proj_imgs": ""
     },
     {
         "proj_name": "Where’s the File",
         "proj_description": "This project presents a centralized version control system (CVCS) akin to Git, with a remote server holding the master repository and users maintaining local working copies. It facilitates collaborative software development by enabling multiple contributors to access, modify, and sync projects. The system's synchronization mechanism ensures consistency and enables easy retrieval of previous versions, enhancing code stability and teamwork.",
         "proj_languages":"C",
         "proj_github":"https://github.com/PNilay/versioncontrol-system",
-        "proj_website": ""
+        "proj_website": "",
+        "proj_imgs": ""
     },
     {
         "proj_name": "DNS Socket Programming Project",
         "proj_description": "Engineered a Dynamic Domain Name System (DNS) with an Authentication Server, Enabling Effortless IP Address Retrieval Through Host Names.",
         "proj_languages":"Python",
         "proj_github":"https://github.com/PNilay/DNS_Socket_Programming_Project",
-        "proj_website": ""
+        "proj_website": "",
+        "proj_imgs": ""
     },
     {
         "proj_name": "Bank and Stock Management System",
         "proj_description": "This project models the simple stock market and the bank account using the c++ class features",
         "proj_languages":"C++",
         "proj_github":"https://github.com/PNilay/Bank_and_Stock_Management_System",
-        "proj_website": ""
+        "proj_website": "",
+        "proj_imgs": ""
     },
     {
         "proj_name": "Fast Trajectory Re-planning",
         "proj_description": "Engineered Diverse Variants of the A* Algorithm, Illuminating Routes from Start to Target.",
         "proj_languages":"Java",
         "proj_github":"https://github.com/PNilay/Trejectory_Replanning",
-        "proj_website": ""
+        "proj_website": "",
+        "proj_imgs": ""
     },
     {
         "proj_name": "Handwritten Digits Recognition Using Fully Conneted Neural Network",
         "proj_description": "Implemented a fully connected neural network on MNIST handwritten digits dataset using only NumPy to correctly classify each image",
         "proj_languages":"Python",
         "proj_github":"https://github.com/PNilay/FullyConnected_NN_numpy",
-        "proj_website": ""
+        "proj_website": "",
+        "proj_imgs": ""
     }
 ]
