@@ -51,7 +51,7 @@ const Projects = () => {
                   ""
                 )}
 
-                  {project.proj_imgs != "" ? (
+                  {project.proj_website != "" ? (
                   <a
                     href={project.proj_website}
                     target="_blank"
